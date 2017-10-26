@@ -1,4 +1,8 @@
-package com.hainet.iterator;
+package com.hainet;
+
+import com.hainet.aggregate.BookShelf;
+import com.hainet.element.Book;
+import com.hainet.iterator.Iterator;
 
 public class Main {
     public static void main(String... args) {

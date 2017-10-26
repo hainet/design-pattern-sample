@@ -1,4 +1,6 @@
-package com.hainet.iterator;
+package com.hainet.aggregate;
+
+import com.hainet.iterator.Iterator;
 
 // Aggregate Role
 public interface Aggregate {

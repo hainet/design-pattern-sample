@@ -1,5 +1,7 @@
 package com.hainet.iterator;
 
+import com.hainet.aggregate.Aggregate;
+
 // Concrete Iterator Role
 public class ConcreteIterator<T extends Aggregate> implements Iterator {
 

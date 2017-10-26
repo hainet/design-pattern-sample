@@ -1,4 +1,8 @@
-package com.hainet.iterator;
+package com.hainet.aggregate;
+
+import com.hainet.element.Book;
+import com.hainet.iterator.ConcreteIterator;
+import com.hainet.iterator.Iterator;
 
 // Concrete Aggregate Role
 public class BookShelf implements Aggregate {
