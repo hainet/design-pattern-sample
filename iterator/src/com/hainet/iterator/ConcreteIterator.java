@@ -1,22 +1,23 @@
 package com.hainet.iterator;
 
 // Concrete Iterator Role
-public class BookShelfIterator implements Iterator {
-    private BookShelf bookShelf;
+public class ConcreteIterator<T extends Aggregate> implements Iterator {
+
+    private T aggregate;
     private int index = 0;
 
-    public BookShelfIterator(final BookShelf bookShelf) {
-        this.bookShelf = bookShelf;
+    public ConcreteIterator(final T aggregate) {
+        this.aggregate = aggregate;
     }
 
     @Override
     public boolean hasNext() {
-        return index < bookShelf.size();
+        return index < aggregate.size();
     }
 
     @Override
     public Object next() {
-        return bookShelf.get(index++);
+        return aggregate.get(index++);
     }
 
     @Override
@@ -26,6 +27,6 @@ public class BookShelfIterator implements Iterator {
 
     @Override
     public Object previous() {
-        return bookShelf.get(--index);
+        return aggregate.get(--index);
     }
 }

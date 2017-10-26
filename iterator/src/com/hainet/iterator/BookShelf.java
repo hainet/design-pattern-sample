@@ -9,6 +9,10 @@ public class BookShelf implements Aggregate {
         this.books = new Book[size];
     }
 
+    public int size() {
+        return index;
+    }
+
     public Book get(final int index) {
         return books[index];
     }
@@ -19,10 +23,6 @@ public class BookShelf implements Aggregate {
 
     public void pop() {
         books[--index] = null;
-    }
-
-    public int size() {
-        return index;
     }
 
     public boolean contains(final Book book) {
@@ -37,6 +37,6 @@ public class BookShelf implements Aggregate {
 
     @Override
     public Iterator iterator() {
-        return new BookShelfIterator(this);
+        return new ConcreteIterator<>(this);
     }
 }
