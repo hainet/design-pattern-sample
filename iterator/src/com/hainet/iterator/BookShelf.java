@@ -2,6 +2,7 @@ package com.hainet.iterator;
 
 // Concrete Aggregate Role
 public class BookShelf implements Aggregate {
+
     private Book[] books;
     private int index = 0;
 

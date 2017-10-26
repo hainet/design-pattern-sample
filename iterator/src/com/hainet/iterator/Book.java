@@ -1,6 +1,7 @@
 package com.hainet.iterator;
 
 public class Book {
+
     private String name;
 
     public Book(final String name) {
