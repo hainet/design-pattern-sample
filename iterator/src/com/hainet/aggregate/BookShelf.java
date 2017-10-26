@@ -1,7 +1,8 @@
 package com.hainet.aggregate;
 
 import com.hainet.element.Book;
-import com.hainet.iterator.ConcreteIterator;
+import com.hainet.iterator.BookShelfIterator;
+//import com.hainet.iterator.GenericIterator;
 import com.hainet.iterator.Iterator;
 
 // Concrete Aggregate Role
@@ -42,6 +43,11 @@ public class BookShelf implements Aggregate {
 
     @Override
     public Iterator iterator() {
-        return new ConcreteIterator<>(this);
+        return new BookShelfIterator(this);
     }
+
+//    @Override
+//    public Iterator iterator() {
+//        return new GenericIterator<>(this);
+//    }
 }
