@@ -1,4 +1,4 @@
-package com.hainet.adaptee;
+package com.hainet.printer.adaptee;
 
 // Adaptee Role
 public class BackEndPrinter {

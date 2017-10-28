@@ -1,7 +1,7 @@
-package com.hainet.adapter;
+package com.hainet.printer.adapter;
 
-import com.hainet.adaptee.BackEndPrinter;
-import com.hainet.target.FrontEndPrinter;
+import com.hainet.printer.adaptee.BackEndPrinter;
+import com.hainet.printer.target.FrontEndPrinter;
 
 // Adapter Role with Delegate
 public class PrinterAdapterDelegate implements FrontEndPrinter {

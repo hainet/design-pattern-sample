@@ -1,4 +1,4 @@
-package com.hainet.target;
+package com.hainet.printer.target;
 
 // Target Role
 public interface FrontEndPrinter {

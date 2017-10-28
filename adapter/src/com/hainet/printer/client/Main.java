@@ -1,7 +1,7 @@
-package com.hainet.client;
+package com.hainet.printer.client;
 
-import com.hainet.adapter.PrinterAdapterExtend;
-import com.hainet.target.FrontEndPrinter;
+import com.hainet.printer.adapter.PrinterAdapterExtend;
+import com.hainet.printer.target.FrontEndPrinter;
 
 // Client Role
 public class Main {
