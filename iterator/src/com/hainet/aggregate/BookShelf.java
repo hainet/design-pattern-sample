@@ -31,16 +31,6 @@ public class BookShelf implements Aggregate {
         books[--index] = null;
     }
 
-    public boolean contains(final Book book) {
-        for (int i=0; i<books.length; i++) {
-            if (books[i] == book) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     @Override
     public Iterator iterator() {
         return new BookShelfIterator(this);

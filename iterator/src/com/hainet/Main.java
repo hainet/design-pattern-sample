@@ -28,12 +28,5 @@ public class Main {
         while (it.hasPrevious()) {
             System.out.println(((Book) it.previous()).getName());
         }
-
-        // contains
-        Book spring = new Book("Spring");
-        bookShelf.add(spring);
-        System.out.println(bookShelf.contains(spring));
-        bookShelf.pop();
-        System.out.println(bookShelf.contains(spring));
     }
 }
