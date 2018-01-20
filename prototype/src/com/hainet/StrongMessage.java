@@ -1,21 +1,12 @@
 package com.hainet;
 
-import com.hainet.framework.Product;
+import com.hainet.framework.AbstractProduct;
 
 // Concrete prototype role
-public class StrongMessage implements Product {
+public class StrongMessage extends AbstractProduct {
 
     @Override
     public void use(final String message) {
         System.out.println("**" + message + "**");
-    }
-
-    @Override
-    public Product createClone() {
-        try {
-            return (Product) this.clone();
-        } catch (CloneNotSupportedException e) {
-            throw new RuntimeException(e);
-        }
     }
 }
