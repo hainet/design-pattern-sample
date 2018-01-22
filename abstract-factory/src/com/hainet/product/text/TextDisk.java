@@ -11,6 +11,6 @@ public class TextDisk extends Disk {
 
     @Override
     public String create() {
-        return "・" + super.item + "\n";
+        return "・" + super.getItem() + "\n";
     }
 }

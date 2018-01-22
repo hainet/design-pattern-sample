@@ -11,6 +11,6 @@ public class MarkdownHeader extends Header {
 
     @Override
     public String create() {
-        return "# " + super.item + "\n";
+        return "# " + super.getItem() + "\n";
     }
 }
