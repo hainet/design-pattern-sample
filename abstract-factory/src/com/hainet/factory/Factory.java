@@ -3,6 +3,7 @@ package com.hainet.factory;
 import com.hainet.product.Disk;
 import com.hainet.product.Header;
 
+// Abstract factory role
 public abstract class Factory {
 
     public static Factory getFactory(final String className) {

@@ -1,5 +1,6 @@
 package com.hainet;
 
+// Client role
 import com.hainet.factory.Factory;
 
 public class Main {

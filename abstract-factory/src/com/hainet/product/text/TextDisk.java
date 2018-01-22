@@ -2,6 +2,7 @@ package com.hainet.product.text;
 
 import com.hainet.product.Disk;
 
+// Concrete product role
 public class TextDisk extends Disk {
 
     public TextDisk(final String item) {

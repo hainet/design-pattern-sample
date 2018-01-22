@@ -2,6 +2,7 @@ package com.hainet.product.text;
 
 import com.hainet.product.Header;
 
+// Concrete product role
 public class TextHeader extends Header {
 
     public TextHeader(final String item) {

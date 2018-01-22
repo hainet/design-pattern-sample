@@ -6,6 +6,7 @@ import com.hainet.product.Header;
 import com.hainet.product.text.TextDisk;
 import com.hainet.product.text.TextHeader;
 
+// Concrete factory role
 public class TextFactory extends Factory {
 
     @Override

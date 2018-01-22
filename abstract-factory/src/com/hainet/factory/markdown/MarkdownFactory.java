@@ -6,6 +6,7 @@ import com.hainet.product.Header;
 import com.hainet.product.markdown.MarkdownDisk;
 import com.hainet.product.markdown.MarkdownHeader;
 
+// Concrete factory role
 public class MarkdownFactory extends Factory {
 
     @Override

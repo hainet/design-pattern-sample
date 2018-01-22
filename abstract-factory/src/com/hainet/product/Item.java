@@ -1,5 +1,6 @@
 package com.hainet.product;
 
+// Abstract product role
 public abstract class Item {
 
     protected String item;
