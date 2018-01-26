@@ -19,7 +19,6 @@ public class Main {
             f.readFromFile(PATH + "/before.txt");
 
             f.setValue("Language", "Java");
-            System.out.println(f.getValue("Language"));
             f.setValue("Design Pattern", "Adapter");
 
             f.writeToFile(PATH + "/after.txt");

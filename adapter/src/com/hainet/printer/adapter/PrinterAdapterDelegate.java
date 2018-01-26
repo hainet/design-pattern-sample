@@ -14,11 +14,11 @@ public class PrinterAdapterDelegate implements FrontEndPrinter {
 
     @Override
     public String week() {
-        return backEndPrinter.withParen();
+        return this.backEndPrinter.withParen();
     }
 
     @Override
     public String strong() {
-        return backEndPrinter.withAster();
+        return this.backEndPrinter.withAster();
     }
 }
