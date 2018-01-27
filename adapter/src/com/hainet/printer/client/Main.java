@@ -1,5 +1,6 @@
 package com.hainet.printer.client;
 
+import com.hainet.printer.adapter.PrinterAdapterDelegate;
 import com.hainet.printer.adapter.PrinterAdapterExtend;
 import com.hainet.printer.target.FrontEndPrinter;
 
@@ -17,7 +18,7 @@ public class Main {
         System.out.println(extend.strong());
 
         // Delegate
-        FrontEndPrinter delegate = new PrinterAdapterExtend("AdapterDelegate");
+        FrontEndPrinter delegate = new PrinterAdapterDelegate("AdapterDelegate");
 
         System.out.println(delegate.week());
         System.out.println(delegate.strong());

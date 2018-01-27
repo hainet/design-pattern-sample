@@ -10,16 +10,10 @@ public class BackEndPrinter {
     }
 
     public String withParen() {
-        return new StringBuilder()
-                .append("(")
-                .append(str)
-                .append(")").toString();
+        return "(" + str + ")";
     }
 
     public String withAster() {
-        return new StringBuilder()
-                .append("*")
-                .append(str)
-                .append("*").toString();
+        return "*" + str + "*";
     }
 }

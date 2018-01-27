@@ -4,5 +4,6 @@ package com.hainet.printer.target;
 public interface FrontEndPrinter {
 
     String week();
+
     String strong();
 }
